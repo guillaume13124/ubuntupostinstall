@@ -17,17 +17,17 @@ VERSION="1.28"
 # Voir plus bas les applications necessitant un depot specifique
 LISTE=""
 # Developpement
-LISTE=$LISTE" build-essential vim subversion git git-core rabbitvcs-nautilus anjuta textadept geany"
+LISTE=$LISTE" "
 # Multimedia
-LISTE=$LISTE" vlc x264 ffmpeg2theora oggvideotools istanbul shotwell mplayer hugin nautilus-image-converter pavucontrol gimp gimp-save-for-web ogmrip transmageddon guvcview wavpack mppenc faac flac vorbis-tools faad lame nautilus-script-audio-convert cheese sound-juicer picard arista nautilus-arista milkytracker mypaint"
+LISTE=$LISTE" nautilus-image-converter gimp gimp-save-for-web nautilus-script-audio-convert cheese arista nautilus-arista mypaint"
 # Network
-LISTE=$LISTE" iperf ifstat wireshark tshark arp-scan htop netspeed nmap netpipe-tcp"
+LISTE=$LISTE" "
 # Systeme
-LISTE=$LISTE" preload gparted lm-sensors compizconfig-settings-manager hardinfo fortune-mod libnotify-bin compiz-fusion-plugins-extra"
+LISTE=$LISTE" preload gparted lm-sensors"
 # Web
-LISTE=$LISTE" pidgin pidgin-facebookchat pidgin-plugin-pack flashplugin-downloader xchat googleearth-package lsb-core ttf-mscorefonts-installer"
+LISTE=$LISTE""
 # Gnome Shell (go away Unity...)
-LISTE=$LISTE" gnome-shell gnome-tweak-tool gnome-documents conky-all ttf-ubuntu-font-family"
+LISTE=$LISTE""
 
 #=============================================================================
 
@@ -60,19 +60,19 @@ LISTE=$LISTE" ubuntu-restricted-extras"
 #LISTE=$LISTE" ppasearch"
 
 # GStreamer, daily build
-$ADDAPT ppa:gstreamer-developers
+#$ADDAPT ppa:gstreamer-developers
 
 # Shutter, outil de capture d'ecran
-$ADDAPT ppa:shutter
-LISTE=$LISTE" shutter"
+#$ADDAPT ppa:shutter
+#LISTE=$LISTE" shutter"
 
 # Chromium, LE navigateur Web (dev-channel PPA)
-$ADDAPT ppa:chromium-daily/dev
-LISTE=$LISTE" chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra chromium-codecs-ffmpeg-nonfree"
+#$ADDAPT ppa:chromium-daily/dev
+#LISTE=$LISTE" chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra chromium-codecs-ffmpeg-nonfree"
 
 # Wine
-$ADDAPT ppa:ubuntu-wine
-LISTE=$LISTE" wine"
+#$ADDAPT ppa:ubuntu-wine
+#LISTE=$LISTE" wine"
 
 # Ubuntu tweak
 $ADDAPT ppa:tualatrix/ppa
