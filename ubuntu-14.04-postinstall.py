@@ -29,7 +29,7 @@ import ConfigParser
 _VERSION = "0.8.0"
 _DEBUG = 1
 _LOG_FILE = "ubuntu-14.04-postinstall.log"
-_CONF_FILE = "https://github.com/freechelmi/ubuntupostinstall/raw/master/ubuntu-12.04-unity-postinstall.cfg"
+_CONF_FILE = "https://github.com/freechelmi/ubuntupostinstall/raw/master/ubuntu-14.04-unity-postinstall.cfg"
 
 # System commands
 #-----------------------------------------------------------------------------
