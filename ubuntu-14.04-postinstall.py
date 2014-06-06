@@ -11,7 +11,7 @@
 #
 
 """
-Post installation script for Ubuntu 12.04 LTS
+Post installation script for Ubuntu 14.04 LTS
 """
 
 import os
@@ -26,9 +26,9 @@ import ConfigParser
 # Global variables
 #-----------------------------------------------------------------------------
 
-_VERSION = "0.7.1"
+_VERSION = "0.8.0"
 _DEBUG = 1
-_LOG_FILE = "ubuntu-12.04-postinstall.log"
+_LOG_FILE = "ubuntu-14.04-postinstall.log"
 _CONF_FILE = "https://github.com/freechelmi/ubuntupostinstall/raw/master/ubuntu-12.04-unity-postinstall.cfg"
 
 # System commands
@@ -85,7 +85,7 @@ def syntax():
     """
     Print the script syntax
     """
-    print "Ubuntu 12.04 post installation script version %s" % _VERSION
+    print "Ubuntu 14.04 post installation script version %s" % _VERSION
     print ""
     print "Syntax: ubuntu-12.04-postinstall.py [-c cfgfile] [-h] [-v]"
     print "  -c cfgfile: Use the cfgfile instead of the default one"
@@ -259,8 +259,8 @@ def main(argv):
         
     # Is it Precise Pangolin ?
     _UBUNTU_VERSION = platform.linux_distribution()[2]
-    if (_UBUNTU_VERSION != "precise"):
-        showexec ("Script only for Ubuntu 12.04", "tpassousprecise", exitonerror = 1)
+    if (_UBUNTU_VERSION != "trusty"):
+        showexec ("Script only for Ubuntu 14.04", "tpassousprecise", exitonerror = 1)
     
     # Read the configuration file
     if (config_file == ""):
