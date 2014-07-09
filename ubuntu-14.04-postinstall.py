@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Mon script de post installation Ubuntu 12.04 LTS
+# Mon script de post installation Ubuntu 14.04 LTS
 #
-# Syntax: # sudo ./ubuntupostinstall-12.04.sh
+# Syntax: # sudo ./ubuntupostinstall-14.04.sh
 #
 # Nicolargo (aka) Nicolas Hennion
 # http://www.nicolargo.com
 # Distributed under the GPL version 3 license
+#modified by Michel Memeteau (ekimia.fr)
 #
 
 """
@@ -26,7 +27,7 @@ import ConfigParser
 # Global variables
 #-----------------------------------------------------------------------------
 
-_VERSION = "0.8.0"
+_VERSION = "0.10.0"
 _DEBUG = 1
 _LOG_FILE = "ubuntu-14.04-postinstall.log"
 _CONF_FILE = "https://github.com/freechelmi/ubuntupostinstall/raw/master/ubuntu-14.04-unity-postinstall.cfg"
@@ -87,21 +88,21 @@ def syntax():
     """
     print "Ubuntu 14.04 post installation script version %s" % _VERSION
     print ""
-    print "Syntax: ubuntu-12.04-postinstall.py [-c cfgfile] [-h] [-v]"
+    print "Syntax: ubuntu-14.04-postinstall.py [-c cfgfile] [-h] [-v]"
     print "  -c cfgfile: Use the cfgfile instead of the default one"
     print "  -h        : Print the syntax and exit"
     print "  -v        : Print the version and exit"
     print ""
     print "Exemples:"
     print ""
-    print " # ubuntu-12.04-postinstall.py"
+    print " # ubuntu-14.04-postinstall.py"
     print " > Run the script with the default configuration file"
     print "   %s" % _CONF_FILE
     print ""
-    print " # ubuntu-12.04-postinstall.py -c ./myconf.cfg"
+    print " # ubuntu-14.04-postinstall.py -c ./myconf.cfg"
     print " > Run the script with the ./myconf.cfg file"
     print ""
-    print " # ubuntu-12.04-postinstall.py -c http://mysite.com/myconf.cfg"
+    print " # ubuntu-14.04-postinstall.py -c http://mysite.com/myconf.cfg"
     print " > Run the script with the http://mysite.com/myconf.cfg configuration file"
     print ""
 
@@ -257,14 +258,14 @@ def main(argv):
     if (not isroot()):
         showexec ("Script should be run as root", "tpastroot", exitonerror = 1)
         
-    # Is it Precise Pangolin ?
+    # Is it trusty ?
     _UBUNTU_VERSION = platform.linux_distribution()[2]
     if (_UBUNTU_VERSION != "trusty"):
         showexec ("Script only for Ubuntu 14.04", "tpassousprecise", exitonerror = 1)
     
     # Read the configuration file
     if (config_file == ""):
-        config_file = "/tmp/ubuntu-12.04-postinstall.cfg"
+        config_file = "/tmp/ubuntu-14.04-postinstall.cfg"
         showexec ("Download the configuration file", "rm -f "+config_file+" ; "+_WGET+" -O "+config_file+" "+config_url)        
     config = ConfigParser.RawConfigParser()
     config.read(config_file)
