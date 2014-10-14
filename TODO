@@ -1,5 +1,6 @@
 
 
+- Disable the update-apt-xapi bs 
 - handle Aiplane mode for Clevo W840SU
 - handle Airplane modefor MSI CR61
 - Enable Windows menu in the window titel bar
