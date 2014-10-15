@@ -1,4 +1,6 @@
-
+- Enable sleep on lid close
+- Enable hibernation
+- Ajust Sleep timeout
 - Disable Apport
 - Autorestore backlight level (like why have done ? )
 - Disable the update-apt-xapi bs 
