@@ -1,3 +1,4 @@
+- clean and autormove the apt cache
 - Enable sleep on lid close
 - Enable hibernation
 - Ajust Sleep timeout
