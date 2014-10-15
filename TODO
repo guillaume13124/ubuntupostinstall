@@ -1,3 +1,4 @@
+- enable full GPU support on chrome and firefox, also for libvadecode (H264, VP8 ? ) 
 - clean and autormove the apt cache
 - Enable sleep on lid close
 - Enable hibernation
