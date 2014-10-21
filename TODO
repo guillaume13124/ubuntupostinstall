@@ -1,3 +1,4 @@
+- add a simple way to control the desktop of users, ondemand
 - enable better defaults for updates ( 2 weeks ,security auto)
 - enable canonical repo
 - Enable full GPU support on chrome and firefox, also for libvadecode (H264, VP8 ? ) 
