@@ -1,3 +1,4 @@
+- install the Main Printers drivers for OOTB functionning including network scanning ( HP, Epson, Canon, Brother)
 - add a simple way to control the desktop of users, ondemand
 - enable better defaults for updates ( 2 weeks ,security auto)
 - enable canonical repo
