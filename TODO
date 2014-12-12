@@ -11,7 +11,7 @@
 - Enable hibernation
 - Ajust Sleep timeout
 - Disable Apport
-- Autorestore backlight level (like why have done ? )
+- Autorestore backlight level (Method http://doc.ubuntu-fr.org/retro-eclairage )
 - Disable the update-apt-xapi bs 
 - handle Aiplane mode for Clevo W840SU
 - handle Airplane modefor MSI CR61
