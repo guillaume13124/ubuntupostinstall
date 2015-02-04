@@ -1,3 +1,4 @@
+- .bin files should executed instead of being opened with archiver
 - Show the % and time of battery as a default
 - Put the machine in oem mode using oem-config-prepare
 - Intégrate swapspace ( http://pqxx.org/development/swapspace/) : no more disk space wasted
