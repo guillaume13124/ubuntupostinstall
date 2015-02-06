@@ -260,8 +260,8 @@ def main(argv):
         
     # Is it trusty ?
     _UBUNTU_VERSION = platform.linux_distribution()[2]
-    if (_UBUNTU_VERSION != "trusty"):
-        showexec ("Script only for Ubuntu 14.04", "tpassousprecise", exitonerror = 1)
+    #if (_UBUNTU_VERSION != "trusty"):
+    #    showexec ("Script only for Ubuntu 14.04", "tpassousprecise", exitonerror = 1)
     
     # Read the configuration file
     if (config_file == ""):
