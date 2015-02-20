@@ -1,17 +1,23 @@
+Tasks are list by priority , end of file ,  the more important.
+They can be rearranged
+
+
+--------------------- TODO ----------------------------
+- Install thermald ( intel ) + TLP project ( to be tested ) 
 - .bin files should executed instead of being opened with archiver
 - Show the % and time of battery as a default
 - Put the machine in oem mode using oem-config-prepare
 - Intégrate swapspace ( http://pqxx.org/development/swapspace/) : no more disk space wasted
+- Enable hibernation (not really possible without swapspace )
 - Patch udev rules to include pid/vid for Epson Scanners and patch epson2.conf to declare the same pid/vid
 - Associate the exe files with wine to opened automagically ( even in browsers) 
 - Install the Main Printers drivers for OOTB functionning including network scanning ( Epson, Canon, Brother)
-- add a simple way to control the desktop of users, ondemand
+- add a simple way to control the desktop of users, ondemand (gitso preinstalled but not click n go) 
 - enable better defaults for updates ( 2 weeks ,security auto)
 - enable canonical repo
 - Enable full GPU support on chrome and firefox, also for libvadecode (H264, VP8 ? ) 
 - Clean the apt cache
 - Enable sleep on lid close
-- Enable hibernation
 - Ajust Sleep timeout
 - Disable Apport
 - Autorestore backlight level (Method http://doc.ubuntu-fr.org/retro-eclairage )
@@ -23,5 +29,7 @@
 - Enable rolling desktop backgrounds (including one for ekimia ?)
 - Disable online search in the launcher as default 
 - Remove the Amazon Launcher
+
+---------------------- DONE ----------------------------------
 
 
