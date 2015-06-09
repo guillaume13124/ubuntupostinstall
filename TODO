@@ -15,13 +15,13 @@ They can be rearranged
 - add a simple way to control the desktop of users, ondemand (gitso preinstalled but not click n go) 
 
 - Enable chromium GPU video decode
-- handle Aiplane mode for Clevo W840SU
+
 
 - .bin files should executed instead of being opened with archiver
-- enable better defaults for updates ( 2 weeks ,security auto)
+
 - Ajust Sleep timeout
 - Disable Apport
-- enable canonical repo
+
 - Autorestore backlight level : see https://launchpad.net/~nrbrtx/+archive/ubuntu/sysvinit-backlight
 - Show the % and time of battery as a default
 - Clean the apt cache
@@ -33,6 +33,11 @@ They can be rearranged
 - Disable online search in the launcher as default 
 - Enable sleep on lid close
 - Remove the Amazon Launcher
+- handle Aiplane mode for Clevo W840SU
+
+---------------------- DONE (Manual) ----------------------------------
+- enable canonical repo
+- enable better defaults for updates ( 2 weeks ,security auto)
 
 ---------------------- DONE ----------------------------------
 
