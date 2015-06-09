@@ -4,8 +4,8 @@ They can be rearranged
 
 --------------------- TODO ----------------------------
 - Install TLP project ( to be tested ) 
-- .bin files should executed instead of being opened with archiver
-- Show the % and time of battery as a default
+
+
 - Put the machine in oem mode using oem-config-prepare
 - Intégrate swapspace ( http://pqxx.org/development/swapspace/) : no more disk space wasted
 - Enable hibernation (not really possible without swapspace )
@@ -13,21 +13,25 @@ They can be rearranged
 - Associate the exe files with wine to opened automagically ( even in browsers) 
 - Install the Main Printers drivers for OOTB functionning including network scanning ( Epson, Canon, Brother)
 - add a simple way to control the desktop of users, ondemand (gitso preinstalled but not click n go) 
+
+- Enable chromium GPU video decode
+- handle Aiplane mode for Clevo W840SU
+
+- .bin files should executed instead of being opened with archiver
 - enable better defaults for updates ( 2 weeks ,security auto)
-- enable canonical repo
-- Enable full GPU support on chrome and fx, also for libvadecode (H264+VP8 in progress for chrome, impossible for fx) 
-- Clean the apt cache
-- Enable sleep on lid close
 - Ajust Sleep timeout
 - Disable Apport
-- Autorestore backlight level (Method http://doc.ubuntu-fr.org/retro-eclairage )
+- enable canonical repo
+- Autorestore backlight level : see https://launchpad.net/~nrbrtx/+archive/ubuntu/sysvinit-backlight
+- Show the % and time of battery as a default
+- Clean the apt cache
 - Disable the update-apt-xapi bs bug 655831
-- handle Aiplane mode for Clevo W840SU
-- handle Airplane modefor MSI CR61
-- Enable Windows menu in the window title bar
 - Put size of launcher to 24
 - Enable rolling desktop backgrounds (including one for ekimia ?)
+- Enable Windows menu in the window title bar
+- Enable full GPU support on chrome (flag ignoregpublacklist) 
 - Disable online search in the launcher as default 
+- Enable sleep on lid close
 - Remove the Amazon Launcher
 
 ---------------------- DONE ----------------------------------
