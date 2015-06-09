@@ -3,7 +3,6 @@ They can be rearranged
 
 
 --------------------- TODO ----------------------------
-- Find a Fix for bug 655831 ( remove xapian ?) 
 - Install TLP project ( to be tested ) 
 - .bin files should executed instead of being opened with archiver
 - Show the % and time of battery as a default
@@ -22,7 +21,7 @@ They can be rearranged
 - Ajust Sleep timeout
 - Disable Apport
 - Autorestore backlight level (Method http://doc.ubuntu-fr.org/retro-eclairage )
-- Disable the update-apt-xapi bs 
+- Disable the update-apt-xapi bs bug 655831
 - handle Aiplane mode for Clevo W840SU
 - handle Airplane modefor MSI CR61
 - Enable Windows menu in the window title bar
