@@ -17,6 +17,7 @@ They can be rearranged
 - Enable chromium GPU video decode
 
 
+
 - .bin files should executed instead of being opened with archiver
 
 - Ajust Sleep timeout
