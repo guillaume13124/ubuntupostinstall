@@ -23,6 +23,7 @@ They can be rearranged
 - Ajust Sleep timeout
 - Disable Apport
 
+- Make sure the network interface will always be XXX0
 - Autorestore backlight level : see https://launchpad.net/~nrbrtx/+archive/ubuntu/sysvinit-backlight
 - Show the % and time of battery as a default
 - Clean the apt cache
